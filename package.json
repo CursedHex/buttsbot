@@ -1,16 +1,12 @@
 {
   "name": "buttsbot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "dotenv": "^17.2.2",
-    "tmi.js": "^1.8.5"
+    "dotenv": "^16.1.4",
+    "tmi.js": "^2.6.0"
   }
 }
