@@ -90,7 +90,7 @@ async function handleCommand(ch, user, isMod, raw, tags) {
       break;
     case '!butt':
       if (!rest.length) {
-        await trySay(ch, 'User commands: !ignoreme / !buttignore - Opt out of buttification | !unignoreme / !buttallow - Re-enable buttification');
+        await trySay(ch, '!buttignore/ !buttallow');
         return;
       }
       if (!isMod) return;
