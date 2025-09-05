@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "dotenv": "^16.1.4",
+    "express": "^5.1.0",
     "tmi.js": "^1.8.5"
   }
 }
